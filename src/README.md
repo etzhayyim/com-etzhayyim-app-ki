@@ -16,6 +16,7 @@ Vendor source NOT carried over — wave-3 follow-up sub-PRs will port each comma
 - kotoba reference impl: deferred (Option B pattern follows etz #89 / #90)
 - ki.etzhayyim.com deploy: NOT yet (operator stage)
 - ki.etzhayyim.com (vendor) status: **LIVE** — wait for operator Stage 4 (routing-gateway 301) + 1-week observation before vendor rm
+- `svelte/` was replaced by `cljs/` (reagent + re-frame + jp-go-dds) on 2026-09-07, see the root README.md
 
 ## Related
 - ADR-2605172000 — kotoba substrate
