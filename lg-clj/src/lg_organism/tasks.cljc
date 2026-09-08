@@ -21,7 +21,7 @@
   swaps each entry of `*task-handlers*` for a kotoba-Datom-log-backed impl; the
   `hakkou.llmTransform` default already routes through the Murakumo loopback
   seam (`lg-organism.llm/*llm-chat*`)."
-  (:require [clojure.string :as str]
+  (:require [kotoba.lang.text :as str]
             [lg-organism.llm :as llm]))
 
 (defn- worker-echo
