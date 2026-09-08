@@ -17,7 +17,7 @@
   until a human cuts over — it never disturbs the live pod."
   (:require #?(:clj [cheshire.core :as json])
             [langgraph.graph :as g]
-            [clojure.string :as str]
+            [kotoba.lang.text :as str]
             [lg-organism.graph :as graph]
             [lg-organism.tasks :as tasks]
             [lg-organism.audit :as audit]))
